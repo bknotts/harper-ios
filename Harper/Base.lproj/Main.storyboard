@@ -8,6 +8,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="GT-Eesti-Display-Bold.ttf">
+            <string>GTEestiDisplay-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Content Slide View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -16,9 +21,51 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5iz-eP-ABm" userLabel="Bottom" customClass="GradientView" customModule="Harper" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="445" width="375" height="222"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="343" translatesAutoresizingMaskIntoConstraints="NO" id="mhZ-um-lDP">
+                                        <rect key="frame" x="16" y="92" width="343" height="94"/>
+                                        <string key="text">The train went on up the track out of sight, around one of the hills of burnt timber. Nick sat down on the bundle of canvas and bedding the baggage man had pitched out of the door of the baggage car.</string>
+                                        <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Db-jl-Gtm">
+                                        <rect key="frame" x="16" y="60" width="343" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="4W2-UZ-XkS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GTEestiDisplay-Bold" family="GT Eesti Display" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mhZ-um-lDP" firstAttribute="top" secondItem="8Db-jl-Gtm" secondAttribute="bottom" constant="8" id="4aD-v7-JVC"/>
+                                    <constraint firstAttribute="height" constant="222" id="E8P-7D-B1E"/>
+                                    <constraint firstAttribute="trailing" secondItem="mhZ-um-lDP" secondAttribute="trailing" constant="16" id="IvN-Fb-EFL"/>
+                                    <constraint firstItem="8Db-jl-Gtm" firstAttribute="leading" secondItem="5iz-eP-ABm" secondAttribute="leading" constant="16" id="LDh-bS-42A"/>
+                                    <constraint firstAttribute="bottom" secondItem="mhZ-um-lDP" secondAttribute="bottom" constant="36" id="NaI-OD-ptE"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Db-jl-Gtm" secondAttribute="trailing" constant="16" id="SYH-DU-Vjr"/>
+                                    <constraint firstItem="mhZ-um-lDP" firstAttribute="leading" secondItem="5iz-eP-ABm" secondAttribute="leading" constant="16" id="q98-om-gVM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5iz-eP-ABm" secondAttribute="trailing" id="CqK-ej-64Y"/>
+                            <constraint firstItem="5iz-eP-ABm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qnk-gM-Ynj"/>
+                            <constraint firstAttribute="bottom" secondItem="5iz-eP-ABm" secondAttribute="bottom" id="zz7-DV-E91"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="contentCopy" destination="5iz-eP-ABm" id="1KQ-p9-pp5"/>
+                        <outlet property="contentSlideDescription" destination="mhZ-um-lDP" id="ctL-tb-oWh"/>
+                        <outlet property="contentSlideTitle" destination="8Db-jl-Gtm" id="ewv-gh-vMU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
