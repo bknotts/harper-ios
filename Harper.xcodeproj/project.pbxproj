@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47D41F9A456E00080A2C /* AppDelegate.swift */; };
-		5E5D47D71F9A456E00080A2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47D61F9A456E00080A2C /* ViewController.swift */; };
 		5E5D47DA1F9A456E00080A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47D81F9A456E00080A2C /* Main.storyboard */; };
 		5E5D47DC1F9A456E00080A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47DB1F9A456E00080A2C /* Assets.xcassets */; };
 		5E5D47DF1F9A456E00080A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47DD1F9A456E00080A2C /* LaunchScreen.storyboard */; };
+		5E5D47E71F9A460400080A2C /* ContentSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */; };
+		5E5D47E91F9A462300080A2C /* exampleVideoBackground.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47E81F9A462000080A2C /* exampleVideoBackground.mp4 */; };
+		5E5D47EB1F9A4E0100080A2C /* secondExampleVideoBackground.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E5D47D11F9A456E00080A2C /* Harper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D47D41F9A456E00080A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E5D47D61F9A456E00080A2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E5D47D91F9A456E00080A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E5D47DB1F9A456E00080A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5D47DE1F9A456E00080A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E5D47E01F9A456E00080A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSlideViewController.swift; sourceTree = "<group>"; };
+		5E5D47E81F9A462000080A2C /* exampleVideoBackground.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = exampleVideoBackground.mp4; sourceTree = "<group>"; };
+		5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = secondExampleVideoBackground.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				5E5D47D41F9A456E00080A2C /* AppDelegate.swift */,
-				5E5D47D61F9A456E00080A2C /* ViewController.swift */,
 				5E5D47D81F9A456E00080A2C /* Main.storyboard */,
+				5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */,
 				5E5D47DB1F9A456E00080A2C /* Assets.xcassets */,
 				5E5D47DD1F9A456E00080A2C /* LaunchScreen.storyboard */,
 				5E5D47E01F9A456E00080A2C /* Info.plist */,
+				5E5D47E81F9A462000080A2C /* exampleVideoBackground.mp4 */,
+				5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */,
 			);
 			path = Harper;
 			sourceTree = "<group>";
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5D47EB1F9A4E0100080A2C /* secondExampleVideoBackground.mp4 in Resources */,
+				5E5D47E91F9A462300080A2C /* exampleVideoBackground.mp4 in Resources */,
 				5E5D47DF1F9A456E00080A2C /* LaunchScreen.storyboard in Resources */,
 				5E5D47DC1F9A456E00080A2C /* Assets.xcassets in Resources */,
 				5E5D47DA1F9A456E00080A2C /* Main.storyboard in Resources */,
@@ -136,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E5D47D71F9A456E00080A2C /* ViewController.swift in Sources */,
+				5E5D47E71F9A460400080A2C /* ContentSlideViewController.swift in Sources */,
 				5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,12 +283,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUNBTLHA4R;
 				INFOPLIST_FILE = Harper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasscott.Harper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,12 +298,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUNBTLHA4R;
 				INFOPLIST_FILE = Harper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasscott.Harper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
