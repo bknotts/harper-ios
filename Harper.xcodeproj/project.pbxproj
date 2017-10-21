@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E01508D1F9B9B6B005BED20 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01508C1F9B9B6B005BED20 /* Game.swift */; };
+		5E4DEFD71F9BB63100AA1608 /* ContentSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DEFD61F9BB63100AA1608 /* ContentSlide.swift */; };
 		5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47D41F9A456E00080A2C /* AppDelegate.swift */; };
 		5E5D47DA1F9A456E00080A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47D81F9A456E00080A2C /* Main.storyboard */; };
 		5E5D47DC1F9A456E00080A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47DB1F9A456E00080A2C /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		5E01508C1F9B9B6B005BED20 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		5E4DEFD61F9BB63100AA1608 /* ContentSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSlide.swift; sourceTree = "<group>"; };
 		5E5D47D11F9A456E00080A2C /* Harper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D47D41F9A456E00080A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5D47D91F9A456E00080A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				5E01508C1F9B9B6B005BED20 /* Game.swift */,
+				5E4DEFD61F9BB63100AA1608 /* ContentSlide.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5D47E71F9A460400080A2C /* ContentSlideViewController.swift in Sources */,
+				5E4DEFD71F9BB63100AA1608 /* ContentSlide.swift in Sources */,
 				5E01508D1F9B9B6B005BED20 /* Game.swift in Sources */,
 				5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */,
 				5E5D47F41F9A6C8000080A2C /* GradientView.swift in Sources */,
