@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E01508D1F9B9B6B005BED20 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01508C1F9B9B6B005BED20 /* Game.swift */; };
 		5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47D41F9A456E00080A2C /* AppDelegate.swift */; };
 		5E5D47DA1F9A456E00080A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47D81F9A456E00080A2C /* Main.storyboard */; };
 		5E5D47DC1F9A456E00080A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47DB1F9A456E00080A2C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E01508C1F9B9B6B005BED20 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		5E5D47D11F9A456E00080A2C /* Harper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D47D41F9A456E00080A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5D47D91F9A456E00080A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +47,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E01508E1F9B9B75005BED20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E01508C1F9B9B6B005BED20 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E01508F1F9B9B86005BED20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */,
+				5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E0150901F9B9B9B005BED20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E5D47D81F9A456E00080A2C /* Main.storyboard */,
+				5E5D47F31F9A6C8000080A2C /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E0150911F9B9BAB005BED20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5D47DD1F9A456E00080A2C /* LaunchScreen.storyboard */,
+				5E5D47DB1F9A456E00080A2C /* Assets.xcassets */,
+				5E5D47D41F9A456E00080A2C /* AppDelegate.swift */,
+				5E5D47E01F9A456E00080A2C /* Info.plist */,
+				5E5D47E81F9A462000080A2C /* exampleVideoBackground.mp4 */,
+				5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */,
+				5E5D47EF1F9A55C400080A2C /* GT-Eesti-Display-Bold.ttf */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5E5D47C81F9A456E00080A2C = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +106,10 @@
 		5E5D47D31F9A456E00080A2C /* Harper */ = {
 			isa = PBXGroup;
 			children = (
-				5E5D47D41F9A456E00080A2C /* AppDelegate.swift */,
-				5E5D47D81F9A456E00080A2C /* Main.storyboard */,
-				5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */,
-				5E5D47F31F9A6C8000080A2C /* GradientView.swift */,
-				5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */,
-				5E5D47DB1F9A456E00080A2C /* Assets.xcassets */,
-				5E5D47DD1F9A456E00080A2C /* LaunchScreen.storyboard */,
-				5E5D47E01F9A456E00080A2C /* Info.plist */,
-				5E5D47E81F9A462000080A2C /* exampleVideoBackground.mp4 */,
-				5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */,
-				5E5D47EF1F9A55C400080A2C /* GT-Eesti-Display-Bold.ttf */,
+				5E01508E1F9B9B75005BED20 /* Model */,
+				5E01508F1F9B9B86005BED20 /* Controller */,
+				5E0150901F9B9B9B005BED20 /* View */,
+				5E0150911F9B9BAB005BED20 /* Supporting Files */,
 			);
 			path = Harper;
 			sourceTree = "<group>";
@@ -155,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5D47E71F9A460400080A2C /* ContentSlideViewController.swift in Sources */,
+				5E01508D1F9B9B6B005BED20 /* Game.swift in Sources */,
 				5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */,
 				5E5D47F41F9A6C8000080A2C /* GradientView.swift in Sources */,
 				5E8279F41F9A86FB0032A4A2 /* GameContentPageViewController.swift in Sources */,
