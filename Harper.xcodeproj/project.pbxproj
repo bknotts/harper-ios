@@ -16,6 +16,7 @@
 		5E5D47EB1F9A4E0100080A2C /* secondExampleVideoBackground.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */; };
 		5E5D47F01F9A55CA00080A2C /* GT-Eesti-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47EF1F9A55C400080A2C /* GT-Eesti-Display-Bold.ttf */; };
 		5E5D47F41F9A6C8000080A2C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47F31F9A6C8000080A2C /* GradientView.swift */; };
+		5E8279F41F9A86FB0032A4A2 /* GameContentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5E5D47EA1F9A4DE400080A2C /* secondExampleVideoBackground.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = secondExampleVideoBackground.mp4; sourceTree = "<group>"; };
 		5E5D47EF1F9A55C400080A2C /* GT-Eesti-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Eesti-Display-Bold.ttf"; sourceTree = "<group>"; };
 		5E5D47F31F9A6C8000080A2C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContentPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				5E5D47D41F9A456E00080A2C /* AppDelegate.swift */,
 				5E5D47D81F9A456E00080A2C /* Main.storyboard */,
+				5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */,
 				5E5D47F31F9A6C8000080A2C /* GradientView.swift */,
 				5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */,
 				5E5D47DB1F9A456E00080A2C /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 				5E5D47E71F9A460400080A2C /* ContentSlideViewController.swift in Sources */,
 				5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */,
 				5E5D47F41F9A6C8000080A2C /* GradientView.swift in Sources */,
+				5E8279F41F9A86FB0032A4A2 /* GameContentPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
