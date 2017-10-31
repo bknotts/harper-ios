@@ -10,6 +10,7 @@ import UIKit
 
 class GameContentPageViewController: UIPageViewController {
 
+    @IBOutlet weak var dismissButton: UIBarButtonItem!
     
     // Create array of view controllers
     private(set) lazy var orderedViewControllers: [UIViewController] = {
@@ -23,9 +24,6 @@ class GameContentPageViewController: UIPageViewController {
             instantiateViewController(withIdentifier: "ContentSlideViewController")
     }
     
-    // I *think* ^^ should give us three instances of the ContentSlideViewController
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +34,7 @@ class GameContentPageViewController: UIPageViewController {
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
         }
-
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,5 +101,13 @@ extension GameContentPageViewController: UIPageViewControllerDataSource {
         return orderedViewControllers[nextIndex]
         
     }
+    
+
+    @IBAction func dismissButtonPressed(_ sender: UIBarButtonItem) {
+        
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
 
 }

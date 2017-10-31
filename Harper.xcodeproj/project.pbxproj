@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5E01508D1F9B9B6B005BED20 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01508C1F9B9B6B005BED20 /* Game.swift */; };
 		5E4DEFD71F9BB63100AA1608 /* ContentSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DEFD61F9BB63100AA1608 /* ContentSlide.swift */; };
+		5E4E73971FA528B100298BAE /* GameDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4E73961FA528B100298BAE /* GameDetailTableViewController.swift */; };
+		5E4E739B1FA5332400298BAE /* GameDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4E739A1FA5332400298BAE /* GameDetailTableViewCell.swift */; };
 		5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47D41F9A456E00080A2C /* AppDelegate.swift */; };
 		5E5D47DA1F9A456E00080A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47D81F9A456E00080A2C /* Main.storyboard */; };
 		5E5D47DC1F9A456E00080A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47DB1F9A456E00080A2C /* Assets.xcassets */; };
@@ -19,11 +21,19 @@
 		5E5D47F01F9A55CA00080A2C /* GT-Eesti-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D47EF1F9A55C400080A2C /* GT-Eesti-Display-Bold.ttf */; };
 		5E5D47F41F9A6C8000080A2C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D47F31F9A6C8000080A2C /* GradientView.swift */; };
 		5E8279F41F9A86FB0032A4A2 /* GameContentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */; };
+		5E84A3341FA7BDD1003F3198 /* GameDetailsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84A3331FA7BDD1003F3198 /* GameDetailsContainerViewController.swift */; };
+		5EA3FB911FA37FB6005851CD /* GameboardCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3FB901FA37FB6005851CD /* GameboardCollectionReusableView.swift */; };
+		5EA533ED1FA0DD6E005336E6 /* SkillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA533EC1FA0DD6E005336E6 /* SkillTableViewController.swift */; };
+		5EA533EF1FA0F783005336E6 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA533EE1FA0F783005336E6 /* SkillTableViewCell.swift */; };
+		5EA533F11FA13100005336E6 /* GameboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA533F01FA13100005336E6 /* GameboardCollectionViewController.swift */; };
+		5EA533F31FA13125005336E6 /* GameboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA533F21FA13125005336E6 /* GameboardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E01508C1F9B9B6B005BED20 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		5E4DEFD61F9BB63100AA1608 /* ContentSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSlide.swift; sourceTree = "<group>"; };
+		5E4E73961FA528B100298BAE /* GameDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailTableViewController.swift; sourceTree = "<group>"; };
+		5E4E739A1FA5332400298BAE /* GameDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameDetailTableViewCell.swift; path = Harper/View/GameDetailTableViewCell.swift; sourceTree = "<group>"; };
 		5E5D47D11F9A456E00080A2C /* Harper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D47D41F9A456E00080A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E5D47D91F9A456E00080A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,12 @@
 		5E5D47EF1F9A55C400080A2C /* GT-Eesti-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Eesti-Display-Bold.ttf"; sourceTree = "<group>"; };
 		5E5D47F31F9A6C8000080A2C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContentPageViewController.swift; sourceTree = "<group>"; };
+		5E84A3331FA7BDD1003F3198 /* GameDetailsContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameDetailsContainerViewController.swift; path = Harper/Controller/GameDetailsContainerViewController.swift; sourceTree = SOURCE_ROOT; };
+		5EA3FB901FA37FB6005851CD /* GameboardCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameboardCollectionReusableView.swift; path = Harper/View/GameboardCollectionReusableView.swift; sourceTree = SOURCE_ROOT; };
+		5EA533EC1FA0DD6E005336E6 /* SkillTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SkillTableViewController.swift; path = Harper/View/SkillTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		5EA533EE1FA0F783005336E6 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
+		5EA533F01FA13100005336E6 /* GameboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameboardCollectionViewController.swift; sourceTree = "<group>"; };
+		5EA533F21FA13125005336E6 /* GameboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameboardCollectionViewCell.swift; path = Harper/View/GameboardCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +77,12 @@
 		5E01508F1F9B9B86005BED20 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5E4E73961FA528B100298BAE /* GameDetailTableViewController.swift */,
 				5E8279F31F9A86FB0032A4A2 /* GameContentPageViewController.swift */,
 				5E5D47E61F9A460400080A2C /* ContentSlideViewController.swift */,
+				5EA533F01FA13100005336E6 /* GameboardCollectionViewController.swift */,
+				5EA3FB901FA37FB6005851CD /* GameboardCollectionReusableView.swift */,
+				5EA533F21FA13125005336E6 /* GameboardCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -71,7 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				5E5D47D81F9A456E00080A2C /* Main.storyboard */,
+				5E84A3331FA7BDD1003F3198 /* GameDetailsContainerViewController.swift */,
+				5EA533EC1FA0DD6E005336E6 /* SkillTableViewController.swift */,
 				5E5D47F31F9A6C8000080A2C /* GradientView.swift */,
+				5EA533EE1FA0F783005336E6 /* SkillTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +116,7 @@
 		5E5D47C81F9A456E00080A2C = {
 			isa = PBXGroup;
 			children = (
+				5E4E739A1FA5332400298BAE /* GameDetailTableViewCell.swift */,
 				5E5D47D31F9A456E00080A2C /* Harper */,
 				5E5D47D21F9A456E00080A2C /* Products */,
 			);
@@ -192,12 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA3FB911FA37FB6005851CD /* GameboardCollectionReusableView.swift in Sources */,
 				5E5D47E71F9A460400080A2C /* ContentSlideViewController.swift in Sources */,
 				5E4DEFD71F9BB63100AA1608 /* ContentSlide.swift in Sources */,
+				5E84A3341FA7BDD1003F3198 /* GameDetailsContainerViewController.swift in Sources */,
+				5EA533ED1FA0DD6E005336E6 /* SkillTableViewController.swift in Sources */,
 				5E01508D1F9B9B6B005BED20 /* Game.swift in Sources */,
 				5E5D47D51F9A456E00080A2C /* AppDelegate.swift in Sources */,
+				5E4E73971FA528B100298BAE /* GameDetailTableViewController.swift in Sources */,
+				5EA533EF1FA0F783005336E6 /* SkillTableViewCell.swift in Sources */,
 				5E5D47F41F9A6C8000080A2C /* GradientView.swift in Sources */,
+				5EA533F31FA13125005336E6 /* GameboardCollectionViewCell.swift in Sources */,
 				5E8279F41F9A86FB0032A4A2 /* GameContentPageViewController.swift in Sources */,
+				5E4E739B1FA5332400298BAE /* GameDetailTableViewCell.swift in Sources */,
+				5EA533F11FA13100005336E6 /* GameboardCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
