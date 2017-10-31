@@ -88,6 +88,8 @@ class SkillTableViewController: UITableViewController {
         
     }
     
+    
+    // TODO: - Fix the double segue bug here.
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         selectedGameName = skillGameNames[indexPath.row]

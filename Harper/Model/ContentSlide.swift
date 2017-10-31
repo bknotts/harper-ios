@@ -8,6 +8,8 @@
 
 import Foundation
 
+// NOT IN USE YET. JUST A TEMPLATE FOR LATER.
+
 class ContentSlide {
     
     let contentSlideTitle : String

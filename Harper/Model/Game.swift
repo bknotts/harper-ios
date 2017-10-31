@@ -8,6 +8,9 @@
 
 import Foundation
 
+
+// NOT IN USE YET. JUST A TEMPLATE FOR LATER.
+
 class Game {
     
     var contentSlides = [ContentSlide]()
